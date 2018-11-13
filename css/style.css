@@ -31,3 +31,12 @@
 #nav-angkringan{
     font-family: cursive, Times, serif;
 }
+#form-register{
+    margin-top:100px;
+}
+#form-login{
+    margin-top:200px;
+}
+input{
+    color: aliceblue;
+}
