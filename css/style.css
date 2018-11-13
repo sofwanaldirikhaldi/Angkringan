@@ -4,7 +4,7 @@
     Starting with "../" moves one directory backwards and starts there
     Starting with "../../" moves two directories backwards and starts there (and so on...)
     To move forward, just start with the first subdirectory and keep moving forward */
-    background-image:url("../image/angkringan.jpg");
+    background-image:url("../image/angkringan.jpg");/*source link : https://news.bbmessaging.com/id/travel/phinemo-com/articles/901142*/
     background-size: cover;
     position: absolute;
     left: 0;
@@ -13,7 +13,7 @@
     bottom: 0;
     width: 100%;
     height: 100%;
-    filter: blur(4px);
+    filter: blur(8px);
     z-index: -2;
 }
 .background-color{
