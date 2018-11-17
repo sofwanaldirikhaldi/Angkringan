@@ -31,6 +31,12 @@
 #nav-angkringan{
     font-family: cursive, Times, serif;
 }
+.image-brand{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    
+}
 #form-register{
     margin-top:100px;
 }
@@ -39,4 +45,9 @@
 }
 input{
     color: aliceblue;
+}
+#search-index{
+    border-bottom: none;
+    margin-right: 40px;
+    width: 700px;
 }
