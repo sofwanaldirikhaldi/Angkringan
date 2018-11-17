@@ -46,8 +46,9 @@
 input{
     color: aliceblue;
 }
-#search-index{
+#search-index {
     border-bottom: none;
+    box-shadow: none;
     margin-right: 40px;
     width: 700px;
 }
