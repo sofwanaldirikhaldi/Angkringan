@@ -1,3 +1,6 @@
+body{
+    background-color:#ef9a9a;
+}
 .background-image{
     /*commend direktory
     Starting with "/" returns to the root directory and starts there
@@ -42,6 +45,7 @@
 }
 #form-login{
     margin-top:200px;
+    z-index: 1;
 }
 input{
     color: aliceblue;
@@ -51,4 +55,9 @@ input{
     box-shadow: none;
     margin-right: 40px;
     width: 700px;
+}
+.mak-min-fav-letter{
+    font-family: cursive, Times, serif;
+    color: #fff;
+    text-align: center;
 }

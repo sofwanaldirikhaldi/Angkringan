@@ -7,27 +7,29 @@
 	<link rel="stylesheet" href="framework/materialize/css/materialize.min.css">
 </head>
 <body>
-	<div class="background-image"></div>
-	<div class="background-color"></div>
+	
+	<div>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="index.html" ><img class="image-brand" src="image/logo-angkringan.png" alt="Logo Angkringan"></a>
+				<ul id="nav-angkringan" class="right">
+					<li><a href="makanan.html">Makanan</a></li>
+					<li class="active"><a href="minuman.html">Minuman</a></li>
+					<li><a href="menubaru.html">Menu Baru</a></li>
+					<li><a href="tentangAngkringan.html">Tentang Angkringan</a></li>
+					<li><a class="dropdown-trigger" href="#" data-target="dropdown-member">Jadi Member?</a></li>
+				</ul>
+			</div>
+		</nav>
+		<ul id="dropdown-member" class="dropdown-content">
+			<li><a href="login.html">Login</a></li>
+			<li><a href="registrasi.html">Registrasi</a></li>
+		</ul>
+	</div>
 
-	<nav>
-		<div class="nav-wrapper">
-			<a href="index.html" ><img class="image-brand" src="image/logo-angkringan.png" alt="Logo Angkringan"></a>
-			<ul id="nav-angkringan" class="right">
-				<li><a href="makanan.html">Makanan</a></li>
-				<li class="active"><a href="minuman.html">Minuman</a></li>
-				<li><a href="menubaru.html">Menu Baru</a></li>
-				<li><a href="tentangAngkringan.html">Tentang Angkringan</a></li>
-				<li><a class="dropdown-trigger" href="#" data-target="dropdown-member">Jadi Member?</a></li>
-			</ul>
-		</div>
-	</nav>
-	<ul id="dropdown-member" class="dropdown-content">
-		<li><a href="login.html">Login</a></li>
-		<li><a href="registrasi.html">Registrasi</a></li>
-	</ul>
 
 	
+
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="framework/materialize/js/materialize.min.js"></script>
 	<script src="js/myscript.js"></script>

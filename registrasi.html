@@ -8,67 +8,70 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-	<div class="background-image"></div>
-	<div class="background-color"></div>
-
-	<nav>
-		<div class="nav-wrapper">
-			<a href="index.html" ><img class="image-brand" src="image/logo-angkringan.png" alt="Logo Angkringan"></a>
-			<ul id="nav-angkringan" class="right">
-				<li><a href="makanan.html">Makanan</a></li>
-				<li><a href="minuman.html">Minuman</a></li>
-				<li><a href="menubaru.html">Menu Baru</a></li>
-				<li><a href="tentangAngkringan.html">Tentang Angkringan</a></li>
-				<li><a class="dropdown-trigger" href="#" data-target="dropdown-member">Jadi Member?</a></li>
-			</ul>
-		</div>
-	</nav>
-	<ul id="dropdown-member" class="dropdown-content">
-		<li><a href="login.html">Login</a></li>
-		<li><a href="registrasi.html">Registrasi</a></li>
-	</ul>
-
-	<div id="form-register">
-		<div class="row">
-			<form>
+	
+	<div>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="index.html" ><img class="image-brand" src="image/logo-angkringan.png" alt="Logo Angkringan"></a>
+				<ul id="nav-angkringan" class="right">
+					<li><a href="makanan.html">Makanan</a></li>
+					<li><a href="minuman.html">Minuman</a></li>
+					<li><a href="menubaru.html">Menu Baru</a></li>
+					<li><a href="tentangAngkringan.html">Tentang Angkringan</a></li>
+					<li><a class="dropdown-trigger" href="#" data-target="dropdown-member">Jadi Member?</a></li>
+				</ul>
+			</div>
+		</nav>
+		<ul id="dropdown-member" class="dropdown-content">
+			<li><a href="login.html">Login</a></li>
+			<li><a href="registrasi.html">Registrasi</a></li>
+		</ul>
+	</div>
+	<div>
+		<div class="background-image"></div>
+		<div class="background-color"></div>
+		<div id="form-register">
 				<div class="row">
-					<div class="col s4"></div>
-					<div class="input-field col s2">
-						<input id="form-first-name" placeholder="Nama Depan" type="text" spellcheck="false">
-					</div>
-					<div class="input-field col s2">
-						<input id="form-last-name" placeholder="Nama Belakang" type="text" spellcheck="false">
-					</div>
-					<div class="col 4"></div>
-				</div>
-				<div class="row">
-						<div class="col s4"></div>
-						<div class="input-field col s4">
-							<input id="form-username" placeholder="Nama Akun" type="text" spellcheck="false">
+					<form>
+						<div class="row">
+							<div class="col s4"></div>
+							<div class="input-field col s2">
+								<input id="form-first-name" placeholder="Nama Depan" type="text" spellcheck="false">
+							</div>
+							<div class="input-field col s2">
+								<input id="form-last-name" placeholder="Nama Belakang" type="text" spellcheck="false">
+							</div>
+							<div class="col 4"></div>
 						</div>
-						<div class="col 4"></div>
-				</div>
-				<div class="row">
-						<div class="col s4"></div>
-						<div class="input-field col s4">
-							<input id="form-email" placeholder="Email" type="text" spellcheck="false">
+						<div class="row">
+								<div class="col s4"></div>
+								<div class="input-field col s4">
+									<input id="form-username" placeholder="Nama Akun" type="text" spellcheck="false">
+								</div>
+								<div class="col 4"></div>
 						</div>
-						<div class="col 4"></div>
-				</div>
-				<div class="row">
-						<div class="col s4"></div>
-						<div class="input-field col s4">
-							<input id="from-password" placeholder="Password" type="Password">
+						<div class="row">
+								<div class="col s4"></div>
+								<div class="input-field col s4">
+									<input id="form-email" placeholder="Email" type="text" spellcheck="false">
+								</div>
+								<div class="col 4"></div>
 						</div>
-						<div class="col 4"></div>
+						<div class="row">
+								<div class="col s4"></div>
+								<div class="input-field col s4">
+									<input id="from-password" placeholder="Password" type="Password">
+								</div>
+								<div class="col 4"></div>
+						</div>
+						<div class="row">
+								<div class="col s4"></div>
+								<a class="waves-effect waves-light btn col s4" href="index.html">Register</a>
+								<div class="col 4"></div>
+						</div>
+					</form>
 				</div>
-				<div class="row">
-						<div class="col s4"></div>
-						<a class="waves-effect waves-light btn col s4" href="index.html">Register</a>
-						<div class="col 4"></div>
-				</div>
-			</form>
-		</div>
+			</div>
 	</div>
 
 	<script src="js/jquery-3.3.1.min.js"></script>
