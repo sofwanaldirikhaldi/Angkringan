@@ -7,8 +7,7 @@
 	<link rel="stylesheet" href="framework/materialize/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-	
+<body ng-app = "registerApp">
 	<div>
 		<nav>
 			<div class="nav-wrapper">
@@ -31,51 +30,53 @@
 		<div class="background-image"></div>
 		<div class="background-color"></div>
 		<div id="form-register">
-				<div class="row">
-					<form>
-						<div class="row">
+			<div class="row">
+				<form>
+					<div class="row">
+						<div class="col s4"></div>
+						<div class="input-field col s2">
+							<input id="form-first-name" placeholder="Nama Depan" type="text" spellcheck="false">
+						</div>
+						<div class="input-field col s2">
+							<input id="form-last-name" placeholder="Nama Belakang" type="text" spellcheck="false">
+						</div>
+						<div class="col 4"></div>
+					</div>
+					<div class="row">
 							<div class="col s4"></div>
-							<div class="input-field col s2">
-								<input id="form-first-name" placeholder="Nama Depan" type="text" spellcheck="false">
-							</div>
-							<div class="input-field col s2">
-								<input id="form-last-name" placeholder="Nama Belakang" type="text" spellcheck="false">
+							<div class="input-field col s4">
+								<input id="form-username" placeholder="Nama Akun" type="text" spellcheck="false">
 							</div>
 							<div class="col 4"></div>
-						</div>
-						<div class="row">
-								<div class="col s4"></div>
-								<div class="input-field col s4">
-									<input id="form-username" placeholder="Nama Akun" type="text" spellcheck="false">
-								</div>
-								<div class="col 4"></div>
-						</div>
-						<div class="row">
-								<div class="col s4"></div>
-								<div class="input-field col s4">
-									<input id="form-email" placeholder="Email" type="text" spellcheck="false">
-								</div>
-								<div class="col 4"></div>
-						</div>
-						<div class="row">
-								<div class="col s4"></div>
-								<div class="input-field col s4">
-									<input id="from-password" placeholder="Password" type="Password">
-								</div>
-								<div class="col 4"></div>
-						</div>
-						<div class="row">
-								<div class="col s4"></div>
-								<a class="waves-effect waves-light btn col s4" href="index.html">Register</a>
-								<div class="col 4"></div>
-						</div>
-					</form>
-				</div>
+					</div>
+					<div class="row">
+							<div class="col s4"></div>
+							<div class="input-field col s4">
+								<input id="form-email" placeholder="Email" type="text" spellcheck="false">
+							</div>
+							<div class="col 4"></div>
+					</div>
+					<div class="row">
+							<div class="col s4"></div>
+							<div class="input-field col s4">
+								<input id="from-password" placeholder="Password" type="Password">
+							</div>
+							<div class="col 4"></div>
+					</div>
+					<div class="row">
+							<div class="col s4"></div>
+							<a class="waves-effect waves-light btn col s4" href="index.html">Register</a>
+							<div class="col 4"></div>
+					</div>
+				</form>
 			</div>
+		</div>
 	</div>
 
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="framework/materialize/js/materialize.min.js"></script>
+	<script src="framework/angularjs/angular.min.js"></script>
+	<Script src="js/register.js"></Script>
 	<script src="js/myscript.js"></script>
 </body>
 </html>
